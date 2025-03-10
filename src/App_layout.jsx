@@ -8,7 +8,7 @@ function App_layout() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/Dashboard" element={<Login />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Academics" element={<Academics />} />
         <Route path="/Performance" element={<Performance />} />
